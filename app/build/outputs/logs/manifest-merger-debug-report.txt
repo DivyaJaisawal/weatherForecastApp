@@ -1,0 +1,89 @@
+-- Merging decision tree log ---
+manifest
+ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:2:1-43:12
+	xmlns:android
+		ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:2:11-69
+	package
+		ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml
+		INJECTED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml
+		INJECTED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:14:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:15:5-80
+	android:name
+		ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:15:22-77
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:16:22-76
+application
+ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:18:5-41:19
+MERGED from [com.android.support:support-v4:21.0.0] L:\Downloads\weather forecast\WeatherForecastApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\AndroidManifest.xml:16:5-19
+	android:label
+		ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:21:9-41
+	android:allowBackup
+		ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:19:9-35
+	android:icon
+		ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:20:9-51
+	android:theme
+		ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:22:9-40
+activity#com.leftshift.weatherapp.viewcontroller.SplashActivity
+ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:23:9-31:20
+	android:label
+		ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:25:13-45
+	android:theme
+		ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:26:13-58
+	android:name
+		ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:24:13-82
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:29:27-74
+activity#com.leftshift.weatherapp.viewcontroller.SelectCityActivity
+ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:33:9-35:57
+	android:label
+		ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:35:13-45
+	android:name
+		ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:34:13-86
+activity#com.leftshift.weatherapp.viewcontroller.MainActivity
+ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:36:9-38:75
+	android:label
+		ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:38:13-63
+	android:name
+		ADDED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml:37:13-80
+uses-sdk
+INJECTED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:support-v4:21.0.0] L:\Downloads\weather forecast\WeatherForecastApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\AndroidManifest.xml:15:5-42
+	android:targetSdkVersion
+		INJECTED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml
+		INJECTED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml
+		INJECTED from L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\AndroidManifest.xml

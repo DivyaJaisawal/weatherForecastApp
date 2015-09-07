@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/HeightWrapContentWidthMatchParentStyle"
+    android:background="@drawable/background_image"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="2"
+    tools:context=".MainActivity">
+
+    <FrameLayout style="@style/HeightWidthMatchParentStyle">
+
+        <RelativeLayout
+            style="@style/HeightWidthMatchParentStyle"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:context=".MainActivity">
+
+            <TextView
+                android:id="@+id/cityText"
+                style="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textColor="@color/white"></TextView>
+
+            <TextView
+                android:id="@+id/temp"
+                style="@style/tempStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cityText"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/white"></TextView>
+
+            <TextView
+                android:id="@+id/unittemp"
+                style="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/temp"
+                android:layout_below="@id/cityText"
+                android:layout_toRightOf="@id/temp"
+                android:textColor="@color/white"
+                android:textSize="30dp"></TextView>
+
+            <TextView
+                android:id="@+id/skydesc"
+                style="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/temp"
+                android:layout_alignStart="@id/temp"
+                android:layout_below="@id/temp"
+                android:layout_toRightOf="@id/temp"
+                android:textColor="@color/white"></TextView>
+
+            <!--  Image weather condition -->
+            <ImageView
+                android:id="@+id/condIcon"
+                style="@style/HeightWidthWrapContentStyle"
+                android:layout_alignTop="@id/temp"
+                android:layout_toRightOf="@id/temp" />
+
+            <ProgressBar
+                android:id="@+id/progressBarForecast"
+                style="@style/HeightWidthWrapContentStyle"
+                android:layout_alignBottom="@id/skydesc"
+                android:layout_centerHorizontal="true"
+
+                />
+
+
+        </RelativeLayout>
+    </FrameLayout>
+
+    <android.support.v4.view.ViewPager
+
+        android:id="@+id/pager"
+        style="@style/HeightWidthMatchParentStyle"
+        android:layout_weight="1">
+
+        <android.support.v4.view.PagerTitleStrip
+            android:id="@+id/pager_title_strip"
+            style="@style/HeightWrapContentWidthMatchParentStyle"
+            android:layout_gravity="top"
+            android:background="#E6E6E6"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:textColor="@color/blue" />
+
+    </android.support.v4.view.ViewPager>
+</LinearLayout>

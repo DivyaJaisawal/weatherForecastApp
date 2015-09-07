@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="21.0.0"><source path="L:\Downloads\weather forecast\WeatherForecastApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\res"/></dataSet><dataSet config="main"><source path="L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\res"><file name="actionbar_sun_icn" path="L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\res\drawable-mdpi\actionbar_sun_icn.png" qualifiers="mdpi" type="drawable"/><file name="background_image" path="L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\res\drawable-mdpi\background_image.png" qualifiers="mdpi" type="drawable"/><file name="fragment_bg_image" path="L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\res\drawable-mdpi\fragment_bg_image.png" qualifiers="mdpi" type="drawable"/><file name="refresh_menu_icn" path="L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\res\drawable-mdpi\refresh_menu_icn.png" qualifiers="mdpi" type="drawable"/><file name="splash_sun_icn" path="L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\res\drawable-mdpi\splash_sun_icn.png" qualifiers="mdpi" type="drawable"/><file name="activity_main" path="L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="activity_select_city" path="L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\res\layout\activity_select_city.xml" qualifiers="" type="layout"/><file name="activity_splash" path="L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\res\layout\activity_splash.xml" qualifiers="" type="layout"/><file name="dayforecast_fragment" path="L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\res\layout\dayforecast_fragment.xml" qualifiers="" type="layout"/><file name="main" path="L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\res\menu\main.xml" qualifiers="" type="menu"/><file path="L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\res\values\colors.xml" qualifiers=""><color name="accent">#7B1FA2</color><color name="blue">#4169E1</color><color name="brown">#470E0E</color><color name="primaryColorDark">#003e00</color><color name="white">#FFFFFF</color><color name="accent_pressed">#303f9f</color><color name="dark_blue">#00008B</color><color name="hintColor">#FFE082</color><color name="ripple">#F06292</color><color name="yellow_pressed">#FFE082</color><color name="yellow">#FFCA28</color><color name="primaryColor">#005a00</color></file><file path="L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="activity_vertical_margin">16dp</dimen></file><file path="L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\res\values\strings.xml" qualifiers=""><string name="action_settings">Settings</string><string name="forSelectedCity">Selected city</string><string name="action_share">Share</string><string name="action_refresh">Refresh</string><string name="choose_city">Choose city</string><string name="cancel">CANCEL</string><string name="title_activity_weather_forecast">WeatherForecast</string><string name="title_activity_splash">SplashActivity</string><string name="yes">YES</string><string name="title">Turn on WI-Fi..</string><string name="app_name">WeatherForecast</string><string name="title_activity_weather_screen">WeatherScreen</string><string name="title_activity_select_city">Temperature</string><string name="forCurrentLocation">Current city</string><string name="hello_world">Hello world!</string><string name="action_donate">Donate</string><string name="content">Do you want to go to wifi settings?</string><string name="your_city_name">Enter your city name</string></file><file path="L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\res\values\styles.xml" qualifiers=""><style name="HeightWidthMatchParentStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style><style name="SplashTheme.FullScreen" parent="android:Theme">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:background">@drawable/background_image</item>
+    </style><style name="valData" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">#74DF00</item>
+        <item name="android:textStyle">bold</item>
+    </style><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style><style name="HeightMatchParentWidthWrapContentStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style><style name="HeightWidthWrapContentStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style><style name="HeightWrapContentWidthMatchParentStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style><style name="tempMin" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">#0000FF</item>
+    </style><style name="tempMax" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">#FF0000</item>
+    </style><style name="tempStyle" parent="@android:style/TextAppearance.Large">
+        <item name="android:textColor">#2E9AFE</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">80dp</item>
+
+    </style><style name="AppTheme" parent="AppBaseTheme">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style><style name="MyActionBar" parent="@android:style/Widget.Holo.Light">
+        <item name="android:background">@drawable/background_image</item>
+    </style><style name="CustomActionBarTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style></file><file path="L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\res\values-sw720dp-land\dimens.xml" qualifiers="sw720dp-land"><dimen name="activity_horizontal_margin">128dp</dimen></file><file path="L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style></file><file path="L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style></file><file path="L:\Downloads\weather forecast\WeatherForecastApp\app\src\main\res\values-w820dp\dimens.xml" qualifiers="w820dp"><dimen name="activity_horizontal_margin">64dp</dimen></file></source><source path="L:\Downloads\weather forecast\WeatherForecastApp\app\build\generated\res\rs\debug"/><source path="L:\Downloads\weather forecast\WeatherForecastApp\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug"><source path="L:\Downloads\weather forecast\WeatherForecastApp\app\src\debug\res"/></dataSet><mergedItems/></merger>

@@ -1,0 +1,30 @@
+import org.apache.http.client.HttpClient
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.0"
+    /*Add below line for  compileSdkVersion 23 as org.apache.HttpClient has been removed in api 23 or use URLConnection instead*/
+   /* useLibrary 'org.apache.http.legacy'*/
+
+    defaultConfig {
+        applicationId "com.leftshift.weatherapp"
+        minSdkVersion 11
+        targetSdkVersion 21
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:support-v4:21.0.0'
+
+
+
+}

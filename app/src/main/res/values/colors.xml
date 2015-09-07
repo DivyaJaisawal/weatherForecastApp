@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Print like design colors -->
+    <color name="primaryColor">#005a00</color>
+    <color name="primaryColorDark">#003e00</color>
+    <color name="ripple">#F06292</color>
+    <color name="accent">#7B1FA2</color>
+    <color name="accent_pressed">#303f9f</color>
+    <color name="yellow">#FFCA28</color>
+    <color name="white">#FFFFFF</color>
+    <color name="hintColor">#FFE082</color>
+
+    <color name="yellow_pressed">#FFE082</color>
+    <color name="brown">#470E0E</color>
+    <color name="blue">#4169E1</color>
+    <color name="dark_blue">#00008B</color>
+
+
+</resources>   

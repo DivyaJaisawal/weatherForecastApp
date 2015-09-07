@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/HeightWidthMatchParentStyle"
+    android:layout_weight="1"
+    android:background="@drawable/background_image"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edTxtChooseCity"
+        style="@style/HeightWidthWrapContentStyle"
+        android:layout_below="@+id/cityText"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:focusable="true"
+        android:hint="@string/your_city_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:textColorHint="@color/hintColor"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        style="@style/HeightWrapContentWidthMatchParentStyle"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnCurrentCity"
+            style="@style/HeightWrapContentWidthMatchParentStyle"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1"
+            android:background="@color/yellow"
+            android:onClick=""
+            android:text="@string/forCurrentLocation"
+            android:textColor="@color/blue" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="2dp"
+            android:background="@color/blue" />
+
+        <Button
+            android:id="@+id/btnSelectedCity"
+            style="@style/HeightWrapContentWidthMatchParentStyle"
+            android:layout_alignEnd="@+id/spinner"
+            android:layout_alignRight="@+id/spinner"
+            android:layout_weight="1"
+            android:background="@color/yellow"
+            android:onClick=""
+            android:text="@string/forSelectedCity"
+            android:textColor="@color/blue" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        style="@style/HeightWidthWrapContentStyle"
+        android:layout_above="@+id/edTxtChooseCity"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="74dp"
+        android:background="@drawable/splash_sun_icn" />
+
+</RelativeLayout>
