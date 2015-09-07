@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\shalini\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="L:\Downloads\weather forecast\WeatherForecastApp\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-306059ea77fd0755f9cf7bd642357f67ee2411c1.jar" />
+    </item>
+    <item
+        jar="L:\Downloads\weather forecast\WeatherForecastApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="L:\Downloads\weather forecast\WeatherForecastApp\app\build\intermediates\pre-dexed\debug\classes-5db920a723153c3fef81924091f3a796086ce15e.jar" />
+    </item>
+    <item
+        jar="L:\Downloads\weather forecast\WeatherForecastApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="95fd37732ec852e99f07eeb516a3650172f1d136">
+        <dex dex="L:\Downloads\weather forecast\WeatherForecastApp\app\build\intermediates\pre-dexed\debug\classes-f5ac147841389a37c8060edb350d6d3c44a1c3f8.jar" />
+    </item>
+    <item
+        jar="L:\Downloads\weather forecast\WeatherForecastApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\jars\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="L:\Downloads\weather forecast\WeatherForecastApp\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-b6bae34cd8355953df5c02f354e92a0c87469b89.jar" />
+    </item>
+
+</items>
